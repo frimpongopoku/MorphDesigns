@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+	var body: some View {
+		ZStack{
+			VStack{
+				Text("Welcome to My Sexy UI")
+			}
+			VStack{
+				Spacer()
+				BottomNavigation()
+			}
+		}
+//		NavigationView{
+//			VStack{
+//				Circle()
+//					.stroke(lineWidth: 20)
+//					.stroke(lineWidth: 50)
+//					.frame(width:100)
+//					.foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+//					.shadow(radius: 10)
+//			}.navigationBarItems(leading: (HamButton()))
+//		}
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }
