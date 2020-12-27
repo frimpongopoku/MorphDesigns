@@ -11,14 +11,20 @@ struct ContentView: View {
 	var body: some View {
 		ZStack{
 			VStack{
-				Text("Welcome to My Sexy UI")
+				NavigationView{
+					
+					AllChatsPage()
+						.navigationTitle("All Chats")
+
+				}
+				Spacer()
+					.frame(height:100)
 			}
 			VStack{
 				Spacer()
 				BottomNavigation()
 			}
-		}
-//		NavigationView{
+		}//		NavigationView{
 //			VStack{
 //				Circle()
 //					.stroke(lineWidth: 20)

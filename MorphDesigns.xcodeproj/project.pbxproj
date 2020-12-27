@@ -19,6 +19,10 @@
 		9E7FC85E2599222D00E4B352 /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC85C2599222D00E4B352 /* BottomNavigation.swift */; };
 		9E7FC8622599356300E4B352 /* Color-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8612599356300E4B352 /* Color-Ext.swift */; };
 		9E7FC8632599356300E4B352 /* Color-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8612599356300E4B352 /* Color-Ext.swift */; };
+		9E7FC8672599486300E4B352 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8662599486300E4B352 /* ChatItem.swift */; };
+		9E7FC8682599486300E4B352 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8662599486300E4B352 /* ChatItem.swift */; };
+		9E7FC86C25994FAA00E4B352 /* AllChatsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC86B25994FAA00E4B352 /* AllChatsPage.swift */; };
+		9E7FC86D25994FAA00E4B352 /* AllChatsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC86B25994FAA00E4B352 /* AllChatsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,8 @@
 		9E7FC8572598DD8500E4B352 /* HamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamButton.swift; sourceTree = "<group>"; };
 		9E7FC85C2599222D00E4B352 /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
 		9E7FC8612599356300E4B352 /* Color-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Ext.swift"; sourceTree = "<group>"; };
+		9E7FC8662599486300E4B352 /* ChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
+		9E7FC86B25994FAA00E4B352 /* AllChatsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChatsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 				9E7FC8572598DD8500E4B352 /* HamButton.swift */,
 				9E7FC8362598D76100E4B352 /* Assets.xcassets */,
 				9E7FC8612599356300E4B352 /* Color-Ext.swift */,
+				9E7FC8662599486300E4B352 /* ChatItem.swift */,
+				9E7FC86B25994FAA00E4B352 /* AllChatsPage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -201,8 +209,10 @@
 			files = (
 				9E7FC8492598D76100E4B352 /* ContentView.swift in Sources */,
 				9E7FC8622599356300E4B352 /* Color-Ext.swift in Sources */,
+				9E7FC8672599486300E4B352 /* ChatItem.swift in Sources */,
 				9E7FC8582598DD8500E4B352 /* HamButton.swift in Sources */,
 				9E7FC85D2599222D00E4B352 /* BottomNavigation.swift in Sources */,
+				9E7FC86C25994FAA00E4B352 /* AllChatsPage.swift in Sources */,
 				9E7FC8472598D76100E4B352 /* MorphDesignsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,8 +223,10 @@
 			files = (
 				9E7FC84A2598D76100E4B352 /* ContentView.swift in Sources */,
 				9E7FC8632599356300E4B352 /* Color-Ext.swift in Sources */,
+				9E7FC8682599486300E4B352 /* ChatItem.swift in Sources */,
 				9E7FC8592598DD8500E4B352 /* HamButton.swift in Sources */,
 				9E7FC85E2599222D00E4B352 /* BottomNavigation.swift in Sources */,
+				9E7FC86D25994FAA00E4B352 /* AllChatsPage.swift in Sources */,
 				9E7FC8482598D76100E4B352 /* MorphDesignsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
