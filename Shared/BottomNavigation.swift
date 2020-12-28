@@ -13,7 +13,10 @@ struct BottomNavigation: View {
 				.shadow(color:
 									Color.ghostWhiteMedium,
 								radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
-				.padding([.leading, .trailing],30)
+				.padding([.leading, .trailing],5)
+				.padding(.bottom, 10)
+				.opacity(0.8)
+				.blur(radius: 1)
 			HStack(alignment:.center, spacing: 50){
 				NavMenuItem(icon:"house",title:"Menu 1")
 				NavMenuItem(icon:"cart.fill",title: "Menu 2")
