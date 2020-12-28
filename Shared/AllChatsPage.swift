@@ -15,7 +15,7 @@ struct AllChatsPage: View {
 			Button{}label:{
 				ChatItem()
 			}
-		}
+		}.listStyle(PlainListStyle())
 		
 		
 	}

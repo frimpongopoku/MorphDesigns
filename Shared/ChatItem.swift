@@ -29,6 +29,7 @@ struct ChatItem: View {
 				.shadow(radius: 2)
 			VStack(alignment:.leading,spacing:8){
 				Text("Person One Chat")
+					.foregroundColor(Color.black)
 					.multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
 				Text("This is the last text sent to the guy wlalal from me")
 					.foregroundColor(.gray)
